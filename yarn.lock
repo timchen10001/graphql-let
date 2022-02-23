@@ -3970,7 +3970,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:4.41.27, @types/webpack@npm:^4":
+"@types/webpack@npm:4.41.32":
+  version: 4.41.32
+  resolution: "@types/webpack@npm:4.41.32"
+  dependencies:
+    "@types/node": "*"
+    "@types/tapable": ^1
+    "@types/uglify-js": "*"
+    "@types/webpack-sources": "*"
+    anymatch: ^3.0.0
+    source-map: ^0.6.0
+  checksum: e594a1357cbbc2f7c6ca47785c5a11adb5591a774a69afaeab07cd6f6bff6c6aea2030bd37b32bdd19d0ec2336a346db754e8d8d236ba8effeab542716fb32b7
+  languageName: node
+  linkType: hard
+
+"@types/webpack@npm:^4":
   version: 4.41.27
   resolution: "@types/webpack@npm:4.41.27"
   dependencies:
@@ -4787,6 +4801,16 @@ __metadata:
     micromatch: ^3.1.4
     normalize-path: ^2.1.1
   checksum: f7bb1929842b4585cdc28edbb385767d499ce7d673f96a8f11348d2b2904592ffffc594fe9229b9a1e9e4dccb9329b7692f9f45e6a11dcefbb76ecdc9ab740f6
+  languageName: node
+  linkType: hard
+
+"anymatch@npm:^3.0.0":
+  version: 3.1.2
+  resolution: "anymatch@npm:3.1.2"
+  dependencies:
+    normalize-path: ^3.0.0
+    picomatch: ^2.0.4
+  checksum: 985163db2292fac9e5a1e072bf99f1b5baccf196e4de25a0b0b81865ebddeb3b3eb4480734ef0a2ac8c002845396b91aa89121f5b84f93981a4658164a9ec6e9
   languageName: node
   linkType: hard
 
@@ -8508,7 +8532,7 @@ fsevents@~2.3.1:
     "@types/react-dom": 17.0.9
     "@types/rimraf": 3.0.2
     "@types/wait-on": 5.3.1
-    "@types/webpack": 4.41.27
+    "@types/webpack": 4.41.32
     "@types/webpack-dev-server": 3.11.6
     "@types/webpack-node-externals": 2.5.2
     "@types/yaml": 1.9.7
