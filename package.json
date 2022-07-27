@@ -189,7 +189,8 @@
     "clean": "rimraf dist",
     "test": "jest",
     "build": "yarn clean && yarn compile",
-    "prepack": "yarn lint && yarn typecheck && yarn build && yarn test"
+    "prepack": "yarn lint && yarn typecheck && yarn build && yarn test",
+    "prepare": "yarn prepack"
   },
   "packageManager": "yarn@3.0.0"
 }
